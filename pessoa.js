@@ -10,7 +10,7 @@ class Pessoa {
         if (this.idade < 18) {
             msgHabilitacao = 'Não posso tirar minha CNH';
         }
-        return "Olá, meu nome é " + this.nome + " e tenho " + this.idade + " anos." + msgHabilitacao + ".";
+        return "Olá, meu nome é " + this.nome + " e tenho" + this.idade + "anos." + msgHabilitacao + ".";
     }
     comidasFavoritas() {
         console.log("Minhas(s) comidas(s) favorita(s)");
