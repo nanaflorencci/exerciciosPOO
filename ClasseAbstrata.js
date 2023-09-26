@@ -21,7 +21,7 @@ class Cat extends Animal {
         super("Gato", 4);
     }
     FazerBarulho() {
-        console.log("A namorada do Reginaldo está miando");
+        console.log("A mãe do Reginaldo está miando");
     }
 }
 class Bird extends Animal {
@@ -29,7 +29,7 @@ class Bird extends Animal {
         super("Pássaro", 2);
     }
     FazerBarulho() {
-        console.log("O primo do Reginaldo está cantando");
+        console.log("O pai do Reginaldo está cantando");
     }
 }
 const cachorro = new Dog();
